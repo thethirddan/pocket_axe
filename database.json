@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "pocket_axe_dev",
+    "schema": "my_schema_dev"
+  },
+
+  "test": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "pocket_axe_test",
+    "schema": "my_schema_test"
+  },
+
+  "prod": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "pocket_axe_prod",
+    "username": "",
+    "password": "",
+    "schema": "my_schema_prod"
+  }
+
+}
