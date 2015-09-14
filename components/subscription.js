@@ -1,4 +1,4 @@
-@Subscription = React.createClass({
+var Subscription = React.createClass({
 
         propTypes: {},
         mixins : [],

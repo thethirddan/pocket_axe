@@ -1,4 +1,4 @@
-var User = React.createClass({
+var Item = React.createClass({
 
         propTypes: {},
         mixins : [],

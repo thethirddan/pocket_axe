@@ -1,4 +1,4 @@
-@Coffee = React.createClass({
+var Coffee = React.createClass({
 
         propTypes: {},
         mixins : [],
