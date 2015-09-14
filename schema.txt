@@ -6,18 +6,19 @@
 
 USER
 ----
-  
+
 
 USER_ADDRESS
 ------------
   user_id
-
-
+  {address fields}
+  is_default
+  is_gift
 
 ORDER
 -----
   user_id
-
+  subscription_id (is this built from a subscription, or a one off)
 
 ORDER_ITEM
 ----------
@@ -33,7 +34,7 @@ ITEM
 
 ITEM_TYPE
 ---------
-  id        //equipment / coffee / subscripton
+  id        //product / coffee / subscripton
 
 
 USER_RATING
@@ -42,15 +43,18 @@ USER_RATING
   item_id
   rating
 
+
 USER_SUBSCRIPTION
 -----------------
   user_id
   status
 
+
 USER_SUBSCRIPTION_PREFS
 -----------------------
   user_subscription_id
   subscription_pref_id
+
 
 SUBSCRIPTION_PREFS
 ------------------
@@ -59,3 +63,6 @@ SUBSCRIPTION_PREFS
 
 VENDOR
 ------
+  terms
+  {delivery method}
+  
