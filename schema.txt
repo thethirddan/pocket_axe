@@ -1,0 +1,61 @@
+//all tables have the following fields:
+  created_at
+  updated_at
+  name
+  description
+
+USER
+----
+  
+
+USER_ADDRESS
+------------
+  user_id
+
+
+
+ORDER
+-----
+  user_id
+
+
+ORDER_ITEM
+----------
+  order_id
+  item_id
+
+
+ITEM
+----
+  item_type_id
+  vendor_id
+
+
+ITEM_TYPE
+---------
+  id        //equipment / coffee / subscripton
+
+
+USER_RATING
+-----------
+  user_id
+  item_id
+  rating
+
+USER_SUBSCRIPTION
+-----------------
+  user_id
+  status
+
+USER_SUBSCRIPTION_PREFS
+-----------------------
+  user_subscription_id
+  subscription_pref_id
+
+SUBSCRIPTION_PREFS
+------------------
+  id
+  name // flavor prefs... fruity // nutty ...etc
+
+VENDOR
+------
